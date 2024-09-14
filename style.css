@@ -1,0 +1,55 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  background-color: #CCC;
+}
+
+.avatar {
+  background-color: #DDD;
+  margin-bottom: 2rem;
+}
+.avatar .container {
+  background-color: transparent;
+}
+.avatar img {
+  margin-inline: auto;
+}
+.avatar .name {
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 2.5rem;
+}
+.avatar .skills {
+  padding-bottom: 2.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.bio {
+  margin-bottom: 2rem;
+}
+
+.projects {
+  margin-bottom: 2rem;
+}
+.projects .flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.projects .flex > * {
+  flex-basis: 150px;
+  max-width: 200px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.contacts .email {
+  background-color: #CCC;
+  padding-block: 2rem;
+}/*# sourceMappingURL=style.css.map */
